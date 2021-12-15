@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using NguyenCaoSang830.Data;
 
 namespace NguyenCaoSang830.Migrations
 {
@@ -13,6 +14,25 @@ namespace NguyenCaoSang830.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.12");
+
+            modelBuilder.Entity("NguyenCaoSang830.Models.NCS0830", b =>
+                {
+                    b.Property<string>("NCSId")
+                        .HasMaxLength(20)
+                        .HasColumnType("varchar");
+
+                    b.Property<bool>("NCSGender")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("NCSName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("NCSId");
+
+                    b.ToTable("NCS0830s");
+                });
 
             modelBuilder.Entity("NguyenCaoSang830.Models.UniversityNCS830", b =>
                 {

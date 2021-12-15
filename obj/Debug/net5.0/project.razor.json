@@ -15629,8 +15629,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\.NetCore\\NguyenCaoSang830\\Views\\NCS0830s\\Create.cshtml",
+      "TargetPath": "Views\\NCS0830s\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\.NetCore\\NguyenCaoSang830\\Views\\UniversityNCS830s\\Delete.cshtml",
       "TargetPath": "Views\\UniversityNCS830s\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\.NetCore\\NguyenCaoSang830\\Views\\NCS0830s\\Details.cshtml",
+      "TargetPath": "Views\\NCS0830s\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15654,8 +15664,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\.NetCore\\NguyenCaoSang830\\Views\\NCS0830s\\Delete.cshtml",
+      "TargetPath": "Views\\NCS0830s\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\.NetCore\\NguyenCaoSang830\\Views\\NCS0830s\\Edit.cshtml",
+      "TargetPath": "Views\\NCS0830s\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\.NetCore\\NguyenCaoSang830\\Views\\UniversityNCS830s\\Edit.cshtml",
       "TargetPath": "Views\\UniversityNCS830s\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\.NetCore\\NguyenCaoSang830\\Views\\NCS0830s\\Index.cshtml",
+      "TargetPath": "Views\\NCS0830s\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

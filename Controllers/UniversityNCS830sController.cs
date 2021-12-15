@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using NguyenCaoSang830.Models;
+using NguyenCaoSang830.Data;
 
 namespace NguyenCaoSang830.Controllers
 {
