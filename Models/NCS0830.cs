@@ -14,4 +14,9 @@ namespace NguyenCaoSang830.Models
         [Required, Display(Name = "Giới tính")]
         public Boolean NCSGender { get; set; }
     }
+
+    public class StringProcessNCS830 : NCS0830
+    {
+        public string NCSName { get; set; }
+    }
 }
